@@ -1,0 +1,14 @@
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+  background-color: #1473d926;
+  box-shadow: 10px 10px 10px 5px rgba(131, 124, 124, 0.414);
+}
+
+
+.card-1,
+.card-2,
+.card-3 {
+    border-radius: 10px;
+}
