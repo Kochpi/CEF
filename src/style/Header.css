@@ -1,0 +1,27 @@
+.header-li ul li {
+    text-transform: uppercase;
+}
+
+.header-li  ul li :active,
+  ul li :hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footer-li ul li {
+    list-style-type: none;
+}
+ 
+.footer-li ul li:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.reseaux a {
+  color: #d8dce096;        
+  transition: color 0.3s ease;
+}
+
+.reseaux a:hover {
+  color: #ffffff;       
+}
