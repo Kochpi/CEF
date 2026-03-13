@@ -2,38 +2,13 @@
     text-transform: uppercase;
 }
 
-.header-li  ul li :active,
-  ul li :hover{
+.header-li  ul li :active{
+  
     font-weight: bold;
     text-decoration: underline;
 }
 
-.footer-li ul li {
-    list-style-type: none;
-}
- 
-.footer-li ul li:hover {
+.header-li ul li :hover {
+      font-weight: bold;
     text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.reseaux a {
-  color: #d8dce096;        
-  transition: color 0.3s ease;
-}
-
-.reseaux a:hover {
-  color: #ffffff;       
-}
-
-span {
-  font-size: large;
-  color: rgb(195, 195, 195);
-}
-
-.reseaux {
-  display: flex;
-  gap: 20px;
-  margin-top: 8px;
-  font-size: 28px;
 }

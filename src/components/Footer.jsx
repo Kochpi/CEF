@@ -1,14 +1,14 @@
-import "../style/Header.css";
+import "../style/Footer.css";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="footer-li bg-dark text-light mt-5">
+    <footer className="bg-dark text-light mt-5">
       <div className="container py-4">
         
         <div className="row text-center text-md-start">
           
-          <div className="col-md-4">
+          <div className="col-md-4 footer-li">
             <ul>
             <span>John Doe</span>
             <li><p className="mb-0">40 rue Bourzeix</p></li>
@@ -31,7 +31,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 footer-li">
             <ul>
             <span>Liens</span>
             <li><Link className="nav-link" to="/">Accueil</Link></li>
@@ -42,7 +42,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="col-md-4">
+          <div className="col-md-4 footer-li">
             <ul>
             <span>Mes dernières réalisations</span>
             <li><Link className="nav-link" to="/projet">Fresh Food</Link></li>
