@@ -11,7 +11,7 @@ function GithubModal({ user }) {
         <div className="modal-content">
 
           <div className="modal-header">
-            <h5 className="modal-title">Mon Profil GitHub</h5>
+            <h3 className="modal-title">Mon Profil GitHub</h3>
             <button
               type="button"
               className="btn-close"

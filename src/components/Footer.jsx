@@ -10,7 +10,7 @@ function Footer() {
           
           <div className="col-md-4 footer-li">
             <ul>
-            <span>John Doe</span>
+            <li><span>John Doe</span></li>
             <li><p className="mb-0">40 rue Bourzeix</p></li>
             <li><p className="mb-0">Lyon, France</p></li>
             <li><p className="mb-0">10 20 30 40 50</p></li>
@@ -33,7 +33,7 @@ function Footer() {
 
           <div className="col-md-4 footer-li">
             <ul>
-            <span>Liens</span>
+            <li><span>Liens</span></li>
             <li><Link className="nav-link" to="/">Accueil</Link></li>
             <li><Link className="nav-link" to="/service">Services</Link></li>
             <li><Link className="nav-link" to="/projet">Portfolio</Link></li>
@@ -44,7 +44,7 @@ function Footer() {
 
           <div className="col-md-4 footer-li">
             <ul>
-            <span>Mes dernières réalisations</span>
+            <li><span>Mes dernières réalisations</span></li>
             <li><Link className="nav-link" to="/projet">Fresh Food</Link></li>
             <li><Link className="nav-link" to="/projet">Restaurant Akira</Link></li>
             <li><Link className="nav-link" to="/projet">Espace bien-être</Link></li>
