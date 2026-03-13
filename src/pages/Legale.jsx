@@ -37,7 +37,7 @@ function Legale() {
 
               <div className="accordion-body">
 
-                <h5>John Doe</h5>
+                <h3>John Doe</h3>
 
                 <p>
                   <i className="bi bi-map"></i> 40 rue Laure Diebold <br />

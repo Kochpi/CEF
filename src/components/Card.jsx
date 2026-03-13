@@ -13,7 +13,7 @@ function Card({ image, title, description, tech }) {
                 />
 
                 <div className="card-body text-center mt-4">
-                    <h3 className="card-title mt-4">{title}</h3>
+                    <h2 className="card-title mt-4">{title}</h2>
                     <p className="card-text mt-4">{description}</p>
 
                     <button className="btn-custom">
